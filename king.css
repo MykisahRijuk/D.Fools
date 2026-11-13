@@ -1,0 +1,269 @@
+@keyframes muncul{
+
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+body{
+    background-color: rgb(84, 8, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.gambar{
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    border-radius: 50%;
+    box-shadow: 0 10px 5px rgb(34, 24, 24);
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    transition: 0.3s;
+    animation: muncul 1s;
+}
+
+.gambar:hover{
+    transform: translateY(-5px);
+}
+
+.judul{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px auto;
+    width: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0 4px 8px black;
+    border-radius: 15px;
+    border: 3px solid red;
+    transition: 0.3s;
+    animation: muncul 1.3s;
+}
+
+.judul:hover{
+    background-color: black;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.desk{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px black;
+    border-radius: 15px;
+    border: 3px solid red;
+    width: 500px;
+    line-height: 1.6;
+    text-align: left;
+    transition: 0.3s;
+    animation: muncul 1.7s;
+}
+
+.desk:hover{
+    background-color: black;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.anggota{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 30px;
+    border: 3px solid red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    transition: 0.3s;
+    animation: muncul 2s;
+}
+
+.anggota:hover{
+    background-color: black;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 15px;
+    width: 230px;
+    border: 3px solid red;
+    text-align: center;
+    transition: 0.3s;
+    animation: muncul 2s;
+}
+
+.card:hover{
+    transform: translateY(-3px);
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    box-shadow: 0 4px 8px black;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.card img:hover{
+    transform: scale(0.8);
+}
+
+.card h3{
+    background-color: black;
+    padding: 5px;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px black;
+    border-radius: 10px;
+    border: 2px solid red;
+    transition: 0.3;
+}
+
+.card h3:hover{
+    transform: translateY(-3px);
+    border: 2px solid white;
+}
+
+.card p{
+    background-color: black;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: left;
+    line-height: 1.6;
+    box-shadow: 0 4px 8px black;
+    border: 3px solid red;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card p:hover{
+    transform: translateY(-3px);
+    border: 2px solid white;
+}
+
+.sejarah{
+    display: flex;
+    gap: 20px;
+
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    animation: muncul 2.5s;
+}
+
+.sejarah img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 5px solid rgb(85, 26, 26);
+    object-fit: cover;
+    animation: muncul 2.7s;
+    transition: 0.3s;
+}
+
+.sejarah img:hover{
+    border: 5px solid rgb(54, 54, 129);
+    transform: scale(0.9);
+}
+
+.content{
+   color: white;
+    text-align: left;
+    animation: 2.7s;
+}
+
+.content h2{
+    background-color: rgb(84, 8, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    display: inline;
+    border: 3px solid rgb(253, 59, 59);
+}
+
+.content p{
+    background-color: rgb(84, 8, 0);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 3px solid rgb(253, 59, 59);
+}
+
+.momen{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px black;
+    border-radius: 15px;
+    border: 3px solid red;
+    width: 300px;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.momen:hover{
+    background-color: black;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.foto{
+    width:250px;
+    background:white;
+    border-radius:15px;
+    border: 2px solid rgb(253, 59, 59);
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    transition: 0.3s;
+}
+
+.foto:hover{
+    transform: translateY(-5px);
+}
+
+.foto img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
